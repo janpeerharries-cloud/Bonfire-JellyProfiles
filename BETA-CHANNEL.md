@@ -6,8 +6,8 @@ This branch serves the **pre-release manifest** for Bonfire/JellyProfiles.
 
 | Channel | Repository URL | Contains |
 |---|---|---|
-| **Stable** (default) | `https://ahouseofbards.github.io/Bonfire-JellyProfiles/manifest.json` | Milestone releases — 1.0, 1.1, 1.1.13, 1.2, 1.2.12, 1.3, 1.4, 1.5, 1.6, 1.6.1, 1.6.2, 1.6.3 |
-| **Beta** | `https://raw.githubusercontent.com/AHouseOfBards/Bonfire-JellyProfiles/beta/manifest.json` | Pre-release builds, and point releases that never became milestones |
+| **Stable** (default) | `https://janpeerharries-cloud.github.io/Bonfire-JellyProfiles/manifest.json` | Milestone releases — 1.0, 1.1, 1.1.13, 1.2, 1.2.12, 1.3, 1.4, 1.5, 1.6, 1.6.1, 1.6.2, 1.6.3 |
+| **Beta** | `https://raw.githubusercontent.com/janpeerharries-cloud/Bonfire-JellyProfiles/beta/manifest.json` | Pre-release builds, and point releases that never became milestones |
 
 The two lists **do not overlap**: every published version appears in exactly one of
 them. See *Why nothing appears twice* below.
@@ -25,7 +25,7 @@ stable one, never on its own, or you will stop being offered stable releases.
 > * Settings introduced in a beta can change shape before release. Reverting to a stable build afterwards may leave those settings behind or reset them.
 > * The profile switcher itself can break. If that happens the plugin can make the Jellyfin web interface hard to use — see the **Emergency disable code** in [docs/limitations.md](docs/limitations.md) before you rely on a beta on a machine you need working.
 >
-> Please do report what you find on [GitHub Issues](https://github.com/AHouseOfBards/Bonfire-JellyProfiles/issues) — that is what the channel is for. Just don't put a beta on a server your household depends on that evening.
+> Please do report what you find on [GitHub Issues](https://github.com/janpeerharries-cloud/Bonfire-JellyProfiles/issues) — that is what the channel is for. Just don't put a beta on a server your household depends on that evening.
 
 ## How to use the beta channel
 
@@ -56,6 +56,11 @@ If you are choosing between them, take the higher one.
 Nothing here changes where downloads come from. Every version in both manifests
 points at its original GitHub release asset, so no download URL is affected by
 which channel you use.
+
+This repository is a fork. Versions through 1.6.3 point at the upstream
+[AHouseOfBards/Bonfire-JellyProfiles](https://github.com/AHouseOfBards/Bonfire-JellyProfiles)
+releases they were originally published under; those binaries are unchanged and stay
+there. 1.7.0 onward is released from this fork instead.
 
 ## Why nothing appears twice
 

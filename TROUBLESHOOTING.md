@@ -109,7 +109,7 @@ is deliberately not a master key.
 ## Reporting something
 
 Please open an issue at
-<https://github.com/AHouseOfBards/Bonfire-JellyProfiles/issues>.
+<https://github.com/janpeerharries-cloud/Bonfire-JellyProfiles/issues>.
 
 Worth including, because it is almost always what gets asked first:
 

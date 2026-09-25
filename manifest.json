@@ -5,8 +5,8 @@
     "name": "Bonfire",
     "description": "Adds multi-user profile switching to Jellyfin. A single account can have up to five isolated profiles — each with its own watch history, parental controls, and library access.",
     "overview": "Multi-user profile switching for Jellyfin.",
-    "owner": "AHouseOfBards",
-    "imageUrl": "https://raw.githubusercontent.com/AHouseOfBards/Bonfire-JellyProfiles/main/images/icon.jpg",
+    "owner": "janpeerharries-cloud",
+    "imageUrl": "https://raw.githubusercontent.com/janpeerharries-cloud/Bonfire-JellyProfiles/main/images/icon.jpg",
     "versions": [
       {
         "version": "1.6.3.0",

@@ -50,7 +50,7 @@ profiles, each with its own watch history, parental controls, and library access
 1. In your Jellyfin dashboard, go to **Plugins → Repositories → ＋**
 2. Paste the following URL and click **Save**:
    ```
-   https://ahouseofbards.github.io/Bonfire-JellyProfiles/manifest.json
+   https://janpeerharries-cloud.github.io/Bonfire-JellyProfiles/manifest.json
    ```
 3. Go to **Plugins → Catalog**, find **Bonfire/JellyProfiles**, and click **Install**
 4. Restart your Jellyfin server when prompted
